@@ -1,0 +1,22 @@
+{
+  "name": "BDDPROJECT",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:headed": "HEADLESS=false cucumber-js",
+    "test:smoke": "cucumber-js --tag \"@smoke\"",
+    "test-dry": "cucumber-js --dry-run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3",
+    "zod": "^4.6.7"
+  }
+}
