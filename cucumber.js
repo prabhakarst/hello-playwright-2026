@@ -1,7 +1,7 @@
 
 module.exports ={
     default: {
-        requireModule:['ts-node/register'],
+        requireModule:['ts-node/register','dotenv/config'],
         require: [
              'Features/support/**/*.ts',
              'Features/step_definitions/**/*.ts',
